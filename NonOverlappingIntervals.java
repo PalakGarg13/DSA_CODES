@@ -1,6 +1,3 @@
-public class NonOverlappingIntervals {
-    
-}
 class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
